@@ -19,4 +19,12 @@
     <None Remove="Structural\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Creational\" />
+  </ItemGroup>
+
 </Project>
