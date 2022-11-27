@@ -16,6 +16,7 @@
   <ItemGroup>
     <Compile Remove="Behavioral\ChainOfResponsibility_ŁańcuchZobowiązań.cs" />
     <Compile Remove="Behavioral\Command_Polecenie.cs" />
+    <Compile Remove="Behavioral\Interpretter.cs" />
     <Compile Remove="Behavioral\Iterator.cs" />
     <Compile Remove="Behavioral\Mediator.cs" />
     <Compile Remove="Behavioral\Memento_Pamiątka.cs" />
@@ -35,6 +36,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Behavioral\" />
     <Folder Include="Creational\" />
     <Folder Include="Structural\" />
   </ItemGroup>
