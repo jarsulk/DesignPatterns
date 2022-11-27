@@ -3,6 +3,7 @@ ABuilder productBuilder1 = new ProductBuilder1();
 Product product1 = director.ConstructProduct1(productBuilder1);
 ABuilder productBuilder2 = new ProductBuilder2();
 Product product2 = director.ConstructProduct2(productBuilder2);
+Console.ReadKey();
 
 class Product { }
 abstract class ABuilder {

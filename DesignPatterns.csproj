@@ -8,23 +8,35 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Behavioral\**" />
     <Compile Remove="Creational\**" />
-    <Compile Remove="Structural\**" />
-    <EmbeddedResource Remove="Behavioral\**" />
     <EmbeddedResource Remove="Creational\**" />
-    <EmbeddedResource Remove="Structural\**" />
-    <None Remove="Behavioral\**" />
     <None Remove="Creational\**" />
-    <None Remove="Structural\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Behavioral\ChainOfResponsibility_ŁańcuchZobowiązań.cs" />
+    <Compile Remove="Behavioral\Command_Polecenie.cs" />
+    <Compile Remove="Behavioral\Iterator.cs" />
+    <Compile Remove="Behavioral\Mediator.cs" />
+    <Compile Remove="Behavioral\Memento_Pamiątka.cs" />
+    <Compile Remove="Behavioral\Observer_Obserwator.cs" />
+    <Compile Remove="Behavioral\State_Stan.cs" />
+    <Compile Remove="Behavioral\Strategy_Strategia.cs" />
+    <Compile Remove="Behavioral\TemplateMethod_MetodaSzablonowa.cs" />
+    <Compile Remove="Behavioral\Visitor_Odwiedzający.cs" />
     <Compile Remove="Program.cs" />
+    <Compile Remove="Structural\Adapter.cs" />
+    <Compile Remove="Structural\Bridge_Most.cs" />
+    <Compile Remove="Structural\Composite_Kompozyt.cs" />
+    <Compile Remove="Structural\Decorator_Dekorator.cs" />
+    <Compile Remove="Structural\Facade_Fasada.cs" />
+    <Compile Remove="Structural\Flyweight_Pyłek.cs" />
+    <Compile Remove="Structural\Proxy_Pełnomocnik.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Creational\" />
+    <Folder Include="Structural\" />
   </ItemGroup>
 
 </Project>

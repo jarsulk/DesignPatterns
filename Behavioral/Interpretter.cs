@@ -1,6 +1,8 @@
 ﻿Context context = new Context();
 Expression expression = new Expression();
-expression.Interpret(context);
+string s = expression.Interpret(context);
+Console.WriteLine(s);
+Console.ReadKey();
 
 abstract class IExpression {
 	public abstract string Interpret(Context context);

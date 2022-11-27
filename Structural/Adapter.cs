@@ -1,6 +1,8 @@
 ﻿Adapted adapted = new Adapted();
 IAdapter adapter1 = new Adapter1(adapted);
-string s1 = adapter1.Operation();
+string s = adapter1.Operation();
+Console.WriteLine(s);
+Console.ReadKey();
 
 class Adapted { 
 	public string AdaptedOperation() => "AdaptedOperation";

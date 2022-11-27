@@ -4,6 +4,7 @@ IProductB productB1 = factory1.CreateProductB();
 Factory2 factory2 = new Factory2();
 IProductA productA2 = factory2.CreateProductA();
 IProductB productB2 = factory2.CreateProductB();
+Console.ReadKey();
 
 interface IProductA { }
 interface IProductB { }

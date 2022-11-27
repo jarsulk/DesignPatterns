@@ -2,6 +2,7 @@
 APrototype clone1 = prototype1.Clone();
 APrototype prototype2 = new Prototype2();
 APrototype clone2 = prototype2.Clone();
+Console.ReadKey();
 
 abstract class APrototype {
 	public abstract APrototype Clone();

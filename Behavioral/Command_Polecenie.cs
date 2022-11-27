@@ -1,6 +1,6 @@
 ﻿Receiver receiver = new Receiver();
 ACommand command = new Command1(receiver);
-Invoker invoker = new Invoker(command);
+Invoker invoker = new Invoker(command); // or invoker.SetCommand(command);
 invoker.ExecuteCommand();
 Console.ReadKey();
 

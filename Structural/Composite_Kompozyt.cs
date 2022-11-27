@@ -1,6 +1,8 @@
 ﻿Composite tree = new Composite();
 tree.Add(new Leaf());
 string s = tree.Operation();
+Console.WriteLine(s);
+Console.ReadKey();
 
 abstract class AComponent {
 	public abstract string Operation();

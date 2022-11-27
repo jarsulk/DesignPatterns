@@ -2,6 +2,7 @@
 string s1 = creator1.Create();
 ACreator creator2 = new Creator2();
 string s2 = creator2.Create();
+Console.ReadKey();
 
 interface IProduct {
 	string Operation();
