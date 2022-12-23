@@ -4,6 +4,10 @@ ADecorator decorator1 = new Decorator1(component);
 string s1 = decorator1.Operation();
 ADecorator decorator2 = new Decorator2(component);
 string s2 = decorator2.Operation();
+Console.WriteLine(s);
+Console.WriteLine(s1);
+Console.WriteLine(s2);
+Console.ReadLine();
 
 interface IComponent { 
 	public string Operation();

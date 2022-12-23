@@ -1,6 +1,7 @@
 ﻿ISubject subject = new Subject();
 Proxy proxy = new Proxy(subject);
 proxy.Request();
+Console.ReadKey();
 
 interface ISubject {
 	public void Request();
