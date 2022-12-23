@@ -15,8 +15,13 @@ class Leaf : AComponent {
 }
 class Composite : AComponent {
 	protected List<AComponent> children = new List<AComponent>();
-	public override string Operation() => "CompositeOperation";
 	public override void Add(AComponent leaf) => children.Add(leaf);
 	public override void Remove(AComponent leaf) => children.Remove(leaf);
 	public override AComponent? Get(int i) => children[i];
+	public override string Operation() {
+		string output = "";
+		foreach (AComponent component in children)
+			output += component.Operation();
+		return output;
+	}
 }

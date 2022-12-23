@@ -25,7 +25,6 @@
     <Compile Remove="Behavioral\Strategy_Strategia.cs" />
     <Compile Remove="Behavioral\TemplateMethod_MetodaSzablonowa.cs" />
     <Compile Remove="Behavioral\Visitor_Odwiedzający.cs" />
-    <Compile Remove="Program.cs" />
     <Compile Remove="Structural\Adapter.cs" />
     <Compile Remove="Structural\Bridge_Most.cs" />
     <Compile Remove="Structural\Composite_Kompozyt.cs" />
@@ -39,6 +38,10 @@
     <Folder Include="Behavioral\" />
     <Folder Include="Creational\" />
     <Folder Include="Structural\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="DesignPatterns.sln" />
   </ItemGroup>
 
 </Project>
