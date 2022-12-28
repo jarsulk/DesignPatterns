@@ -2,7 +2,7 @@
 Monostate m2 = new Monostate();
 m1.Data = 1;
 Console.WriteLine(m2.Data); // 1
-Console.ReadLine();
+Console.ReadKey();
 
 class Monostate {
 	private static int data = 0;

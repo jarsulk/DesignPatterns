@@ -35,8 +35,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="Creational\Prototype_Prototyp.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Behavioral\" />
-    <Folder Include="Creational\" />
     <Folder Include="Structural\" />
   </ItemGroup>
 
